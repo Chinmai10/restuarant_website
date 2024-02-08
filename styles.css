@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background :url("shape-5.png") center/cover no-repeat ;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.dish {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    display: inline-block; 
+    width: 300px;
+    
+
+}
+
+.top-header {
+    
+    padding: 15px;
+    text-align: center;
+
+    
+    
+}
+
+.top-header h1 {
+    margin: 0;
+    color: #fff;
+    
+}
+
+.dish img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.price {
+    color: #e44d26;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.dish:hover {
+    transform: scale(1.05);
+  }
+
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right, #ca5555, #f06c6b);
+    padding: 10px;
+    border-radius: 8px;
+  }
